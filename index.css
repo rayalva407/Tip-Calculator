@@ -4,7 +4,7 @@
   text-align: center;
   margin: auto;
   width: 50%;
-  background-color: #478978;
+  background-color: #038f6c;
 }
 
 body {
@@ -14,4 +14,10 @@ body {
 
 input, select, button {
   background-color: #bdbac2;
+}
+
+#tip-result {
+  background-color: #c77c1b;
+  margin: auto;
+  width: 50%;
 }
