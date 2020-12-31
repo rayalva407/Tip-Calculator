@@ -14,6 +14,14 @@
       <form>
         <p>How much was your bill?</p>
         $<input type="number" id='billAmt'><br><br>
+        <label for="service">How was your service?</label><br><br>
+        <select name="service" id="service">
+          <option selected disabled value=''>--Choose an Option--</option>
+          <option value="0.3">Amazing! - 30%</option>
+          <option value="0.2">Good - 20%</option>
+          <option value="0.1">Ok - 10%</option>
+          <option value="0.05">Bad - 5%</option>
+        </select>
       </form>
     </div>
     <script src="src.js" async defer></script>
