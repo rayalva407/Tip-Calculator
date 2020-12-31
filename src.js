@@ -13,6 +13,7 @@ const calculate = () => {
   resultDiv.appendChild(result)
 }
 
-button.addEventListener('click', function() {
+button.addEventListener('click', function(e) {
+  e.preventDefault()
   calculate()
 })
