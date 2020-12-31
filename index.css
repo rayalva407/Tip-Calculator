@@ -28,3 +28,7 @@ input, select, button {
   margin: auto;
   width: 50%;
 }
+
+.errors {
+  outline: 1px solid red;
+}
