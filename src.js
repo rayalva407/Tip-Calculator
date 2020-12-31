@@ -8,7 +8,7 @@ const calculate = () => {
   const tip = (billAmt * percent) / people
   const resultDiv = document.querySelector('#tip-result')
   const result = document.createElement('p')
-  result.innerText = `Tip $${tip} each`
+  people > 1 ? result.innerText = `Tip $${tip} each` : result.innerText = `Tip $${tip}`
   resultDiv.innerHTML = ''
   resultDiv.appendChild(result)
 }
