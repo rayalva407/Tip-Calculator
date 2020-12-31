@@ -6,3 +6,12 @@
   width: 50%;
   background-color: #478978;
 }
+
+body {
+  background-color: #474973;
+  padding: 200px 0;
+}
+
+input, select, button {
+  background-color: #bdbac2;
+}
