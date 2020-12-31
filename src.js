@@ -4,10 +4,10 @@ const calculate = () => {
   const percent = document.querySelector('#service').value
   const people = document.querySelector('#people').value
 
-
+  
   const tip = (billAmt * percent) / people
   const resultDiv = document.querySelector('#tip-result')
-  const result = document.createElement('p')
+  const result = document.createElement('h1')
   people > 1 ? result.innerText = `Tip $${tip} each` : result.innerText = `Tip $${tip}`
   resultDiv.innerHTML = ''
   resultDiv.appendChild(result)
