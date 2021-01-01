@@ -3,15 +3,21 @@ const calculate = () => {
   const billAmt = document.querySelector('#billAmt').value
   const percent = document.querySelector('#service').value
   const people = document.querySelector('#people').value
+  const alert = document.querySelector('#alert')
+  const errors = document.createElement('p')
+  something.innerText = 'All Fields Required'
 
   if (billAmt === "") {
     document.querySelector('#billAmt').classList.add('errors')
+    alert.appendChild(errors)
   }
   if (percent === "") {
     document.querySelector('#service').classList.add('errors')
+    alert.appendChild(errors)
   }
   if (people === "") {
     document.querySelector('#people').classList.add('errors')
+    alert.appendChild(errors)
   }
   if (billAmt !== "" && percent !== "" && people !== "") {
     document.querySelector('#billAmt').classList.remove('errors')
